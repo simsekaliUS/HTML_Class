@@ -9,20 +9,44 @@
     <h1> Sign up form </h1>
     <form>
 
-        <label > First name : </label>
+        <label for="firstName"> First name : </label>
         <input type="text"  id = "firstName"   placeholder="Enter name here"  />
 
         <br/>
 
-        <label > Last name : </label>
-        <input type="text" />
+        <label for="lastName" > Last name : </label>
+        <input type="text" id="lastName" />
 
        <div>
 
-           <label > Company : </label>
-           <input type="text" />
+           <label for="company"> Company : </label>
+           <input type="text" id="company" />
 
        </div>
+
+<!--        input:text#school-->
+        <label for="school"> School name: </label>
+        <input type="text" name="school_name" id="school" />
+        <br/>
+
+        <label for="email">Email address:</label>
+        <input type="email" name="email_add" id="email">
+
+        <br/>
+
+        <label for="martial_status">Married ? </label>
+<!--     input:checkbox#martial_status   -->
+        <input type="checkbox" name="martial_status" id="martial_status">
+        <label for="vaccinated"> Vaccinated? </label>
+        <input type="checkbox" name="got_vaccinated" id="vaccinated">
+
+        <br/>
+        <label for="male"> Male </label>
+        <input type="radio" name="gender" id="male">
+
+        <label for="female"> Female </label>
+        <input type="radio" name="gender" id="female">
+
 
 
 
