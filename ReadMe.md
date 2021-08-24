@@ -243,28 +243,30 @@ This is just a quick example , it will become much more obvious when it is combi
 - `<tr>` table rows
 - `<td>` actual cell
 
+Emmet shortcut to generate below table 
+`table>thead>(tr>td{Header$}*2)^tbody>tr*3>td{Value$$$}*3**`
 
   ```html
-  <table>
-	<thead>
-          <tr>
-               <td>Header1</td>
-               <td>Header2</td>
-          </tr>
-	</thead>
-	<tbody>
-          <tr>
-               <td>value001</td>
-               <td>value002</td>
-          </tr>
-          <tr>
-               <td>value001</td>
-               <td>value002</td>
-          </tr>
-          <tr>
-               <td>value001</td>
-               <td>value002</td>
-          </tr>
-	</tbody>
-</table>
+      <table>
+        <thead>
+              <tr>
+                   <td>Header1</td>
+                   <td>Header2</td>
+              </tr>
+        </thead>
+        <tbody>
+              <tr>
+                   <td>value001</td>
+                   <td>value002</td>
+              </tr>
+              <tr>
+                   <td>value001</td>
+                   <td>value002</td>
+              </tr>
+              <tr>
+                   <td>value001</td>
+                   <td>value002</td>
+              </tr>
+        </tbody>
+    </table>
   ```  
