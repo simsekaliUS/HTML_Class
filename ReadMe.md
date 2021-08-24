@@ -181,7 +181,7 @@ You can add link to a destination by providing `href` attribute , it can point t
 img tag is a self closing tag, It is used to display images using the attribute `src` to specify either local destination or remote url destination
 Assuming that you have picture in same directory(folder) with the name `TheCoolPic.jpg`. Here is how you can display it as element
 ```html
-<img src="TheCoolPic.jpg"> 
+<img src="TheCoolPic.jpg" alt="cool pic here"/> 
 ```
 Common attribute for `img` tag is `alt` to provide description about the image and also `height` and `width` attributes can be used to adjust the size (even thout it's recommended to do it with css)
 ```html
