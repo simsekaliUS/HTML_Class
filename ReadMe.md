@@ -94,6 +94,8 @@ If you want to import the folder you created earlier simply do below
     4. and many more here is [the full cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
 ---
+Here is the full [list of html tags](https://www.w3schools.com/tags/default.asp).  
+We will not go through all of them we will see some of the most common ones in the majority of websites.
 ## Heading  `h1-h6`
 ```html
 <h1> This is h1 heading content </h1>
